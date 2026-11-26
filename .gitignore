@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.env.*
+env/
+.venv/
+outputs/
+logs/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+.install-cache/
+reproduction-run.json

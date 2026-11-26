@@ -1,0 +1,12 @@
+{
+  "image": "hrbench8k_bicycles.png",
+  "question": "How many bicycles are visible near the building's entrance?\nA. Two\nB. Four\nC. Three\nD. One\nAnswer the option letter directly.",
+  "source": {
+    "benchmark": "HR-Bench-8K",
+    "doc_id": 562,
+    "index": 562,
+    "category": "cross",
+    "cycle_category": 2
+  },
+  "reference_answer": "C"
+}

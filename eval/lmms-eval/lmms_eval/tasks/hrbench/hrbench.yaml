@@ -1,0 +1,10 @@
+group: hrbench
+task:
+  - hrbench4k
+  - hrbench8k
+metadata:
+  version: 0.0
+  gpt_eval_model_name: "gpt-3.5-turbo"
+  max_workers: 1
+generation_kwargs:
+  temperature: 1.0 # 0

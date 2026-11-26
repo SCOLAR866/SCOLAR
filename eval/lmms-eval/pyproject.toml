@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "lmms_eval"
+version = "0.7.1"
+description = "lmms-eval subset for SCALER"
+requires-python = ">=3.12"
+[project.scripts]
+lmms-eval = "lmms_eval.cli.dispatch:main"
+[tool.setuptools.packages.find]
+include = ["lmms_eval*"]
+[tool.setuptools.package-data]
+lmms_eval = ["**/*.yaml", "**/*_yaml", "**/*.json"]

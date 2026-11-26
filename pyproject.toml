@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scaler"
+version = "0.1.0"
+description = "SCALER inference and evaluation"
+requires-python = ">=3.12"
+
+[tool.setuptools.packages.find]
+include = ["scaler*"]
+
+[tool.setuptools.package-data]
+scaler = ["modeling/LICENSE"]
